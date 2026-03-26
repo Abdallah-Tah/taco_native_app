@@ -179,6 +179,53 @@ struct TradeRow: View {
     }
 }
 
+// MARK: - Engine status card
+
+struct EngineStatusCard: View {
+    let engines: EnginesStatus
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Engine status").font(.caption).foregroundStyle(.secondary).textCase(.uppercase).tracking(1)
+            VStack(spacing: 8) {
+                HStack(spacing: 8) {
+                    EngineStatusPill(name: "BTC", engine: engines.btc15m)
+                    EngineStatusPill(name: "ETH", engine: engines.eth15m)
+                    EngineStatusPill(name: "SOL", engine: engines.sol15m)
+                }
+                HStack(spacing: 8) {
+                    EngineStatusPill(name: "XRP", engine: engines.xrp15m)
+                    EngineStatusPill(name: "CB", engine: engines.coinbase)
+                }
+            }
+        }
+    }
+}
+
+struct EngineStatusPill: View {
+    let name: String
+    let engine: Engine
+
+    var statusColor: Color {
+        guard engine.running else { return .tacoRed }
+        return engine.mode == "live" ? .tacoGreen : .tacoAmber
+    }
+
+    var body: some View {
+        HStack(spacing: 6) {
+            Circle().fill(statusColor).frame(width: 6, height: 6)
+            Text(name).font(.caption2.weight(.medium)).foregroundColor(.white)
+            Text(engine.running ? engine.mode.uppercased() : "OFF")
+                .font(.system(size: 9, weight: .bold))
+                .foregroundColor(statusColor.opacity(0.8))
+        }
+        .padding(.horizontal, 10)
+        .padding(.vertical, 6)
+        .frame(maxWidth: .infinity)
+        .background(RoundedRectangle(cornerRadius: 8).fill(Color.tacoSurface).overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.tacoBorder, lineWidth: 0.5)))
+    }
+}
+
 // MARK: - Error banner
 
 struct ErrorBanner: View {

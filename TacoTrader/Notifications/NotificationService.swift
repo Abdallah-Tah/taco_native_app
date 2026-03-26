@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 import UserNotifications
 
 // MARK: - Payload model
@@ -12,6 +13,7 @@ struct RedeemNotificationPayload {
 
 // MARK: - Service
 
+@MainActor
 final class NotificationService: NSObject {
     static let shared = NotificationService()
 

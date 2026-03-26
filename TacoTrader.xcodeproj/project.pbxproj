@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028371BBE2AF0ECD9955FBDD /* EnginesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07C6B3B263684896D7AF7AD /* EnginesView.swift */; };
+		02F7A42FCD0114463232852B /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0015E0D6B6BDB2103499C9 /* APIEndpoint.swift */; };
+		19A0482C3549C1B6FADDDE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6064B10FC6DFD1C72E4366AC /* AppDelegate.swift */; };
+		31A2E40DD893CC78C672EA31 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EEF850939A8FE4C263B404 /* NetworkError.swift */; };
+		4A0CB05F8056163A81AAEF56 /* SystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568702C09366367FCCAAC17 /* SystemView.swift */; };
+		6107576FF6EBA31A29DD3006 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D71866773F354A81C7DFD6 /* DashboardViewModel.swift */; };
+		8042B333E2A46F5108F599CA /* settings.local.json in Resources */ = {isa = PBXBuildFile; fileRef = 36520DCD204FB5A1B67B9823 /* settings.local.json */; };
+		850A89A20F6A285627660B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E8E0CAB041D123BD222AB /* ContentView.swift */; };
+		8D81B44BADD86C7873E2857A /* TacoTraderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06D6C16C19F7EFB0911D816 /* TacoTraderApp.swift */; };
+		A02AF0CDC4F087718422AD4D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D933995A6C4842E15E7A7D /* NotificationService.swift */; };
+		AC2DC157F43E37DB5816F620 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE43B0C8B99A414BD1AF039 /* APIClient.swift */; };
+		AC799FAF3FF9ECB3C16524C3 /* RedeemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F2843DB04FBAD73B18B60 /* RedeemsView.swift */; };
+		AEC76FA01FFEBC8CCB7AA88B /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85500FF94C551758CE4B576C /* Color+Theme.swift */; };
+		BCE001B51D4CDB222CB814D6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DDBB49277E5FB3A127390 /* Models.swift */; };
+		CC64BE053FD160FC472B72AD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9CCF5B8AB1E34CFC30B54 /* SettingsView.swift */; };
+		D18F101A91B35A28391D48E9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736BC6C9B45BE09BE3535206 /* DashboardView.swift */; };
+		F9C114ECA20E57D5BD7E9F7F /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5724605838ED91B5E15676 /* AppSettings.swift */; };
+		FB00B5796DFE04D911A8A2D3 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD42AB65EA9CCA19A9B73B /* TransactionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		161CC77A0E8835E292669CCA /* TacoTrader.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TacoTrader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5724605838ED91B5E15676 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		1F2F12A3646999189D383661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		26D71866773F354A81C7DFD6 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		36520DCD204FB5A1B67B9823 /* settings.local.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = settings.local.json; sourceTree = "<group>"; };
+		3F0DDBB49277E5FB3A127390 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5F0015E0D6B6BDB2103499C9 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		6064B10FC6DFD1C72E4366AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B3E8E0CAB041D123BD222AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FE43B0C8B99A414BD1AF039 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		71EEF850939A8FE4C263B404 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		736BC6C9B45BE09BE3535206 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		85500FF94C551758CE4B576C /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		A3D933995A6C4842E15E7A7D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AE6F2843DB04FBAD73B18B60 /* RedeemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemsView.swift; sourceTree = "<group>"; };
+		B07C6B3B263684896D7AF7AD /* EnginesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnginesView.swift; sourceTree = "<group>"; };
+		C06D6C16C19F7EFB0911D816 /* TacoTraderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoTraderApp.swift; sourceTree = "<group>"; };
+		D4F9CCF5B8AB1E34CFC30B54 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D568702C09366367FCCAAC17 /* SystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemView.swift; sourceTree = "<group>"; };
+		D6CD42AB65EA9CCA19A9B73B /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A9E84FC44230AA9476C3385 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F0DDBB49277E5FB3A127390 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CEAB62EBC1582FC3D31D24F /* Redeems */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F2843DB04FBAD73B18B60 /* RedeemsView.swift */,
+			);
+			path = Redeems;
+			sourceTree = "<group>";
+		};
+		105E694B9F6923E82C08D907 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				A3D933995A6C4842E15E7A7D /* NotificationService.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		2491542E2365F400AAAE1C1C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6FE43B0C8B99A414BD1AF039 /* APIClient.swift */,
+				5F0015E0D6B6BDB2103499C9 /* APIEndpoint.swift */,
+				71EEF850939A8FE4C263B404 /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		29EFEC92F2BE88F0D9B71EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				161CC77A0E8835E292669CCA /* TacoTrader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4178EC0F5CAC109D204C1B48 /* TacoTrader */ = {
+			isa = PBXGroup;
+			children = (
+				1F2F12A3646999189D383661 /* Info.plist */,
+				58200AF09CAED67C23AA5FB6 /* .claude */,
+				D04FB68297D2C100A4076B6B /* App */,
+				B3251CDCDC100C9CCA0EC76E /* Core */,
+				D0CA66438C17642B401F7905 /* Features */,
+				0A9E84FC44230AA9476C3385 /* Models */,
+				105E694B9F6923E82C08D907 /* Notifications */,
+			);
+			path = TacoTrader;
+			sourceTree = "<group>";
+		};
+		4ECF8BE5A23D551F24E7D622 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D4F9CCF5B8AB1E34CFC30B54 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		58200AF09CAED67C23AA5FB6 /* .claude */ = {
+			isa = PBXGroup;
+			children = (
+				36520DCD204FB5A1B67B9823 /* settings.local.json */,
+			);
+			path = .claude;
+			sourceTree = "<group>";
+		};
+		5BA29725F1C26680712C14CC /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				736BC6C9B45BE09BE3535206 /* DashboardView.swift */,
+				26D71866773F354A81C7DFD6 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		5BDE2C59B343A59839BCA76A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1D5724605838ED91B5E15676 /* AppSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6745A543DE2D87A2A4FD99E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85500FF94C551758CE4B576C /* Color+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7031CCE048046C9007D76A2E /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D568702C09366367FCCAAC17 /* SystemView.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		9BABBF55692E4C8BDBF6B6C3 = {
+			isa = PBXGroup;
+			children = (
+				4178EC0F5CAC109D204C1B48 /* TacoTrader */,
+				29EFEC92F2BE88F0D9B71EB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3251CDCDC100C9CCA0EC76E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6745A543DE2D87A2A4FD99E1 /* Extensions */,
+				2491542E2365F400AAAE1C1C /* Networking */,
+				5BDE2C59B343A59839BCA76A /* Settings */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B410277BF11BDDC0AE9E1D6E /* Engines */ = {
+			isa = PBXGroup;
+			children = (
+				B07C6B3B263684896D7AF7AD /* EnginesView.swift */,
+			);
+			path = Engines;
+			sourceTree = "<group>";
+		};
+		B4F11113F6DC003C2A55CF30 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD42AB65EA9CCA19A9B73B /* TransactionsView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		D04FB68297D2C100A4076B6B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6064B10FC6DFD1C72E4366AC /* AppDelegate.swift */,
+				6B3E8E0CAB041D123BD222AB /* ContentView.swift */,
+				C06D6C16C19F7EFB0911D816 /* TacoTraderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0CA66438C17642B401F7905 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5BA29725F1C26680712C14CC /* Dashboard */,
+				B410277BF11BDDC0AE9E1D6E /* Engines */,
+				0CEAB62EBC1582FC3D31D24F /* Redeems */,
+				4ECF8BE5A23D551F24E7D622 /* Settings */,
+				7031CCE048046C9007D76A2E /* System */,
+				B4F11113F6DC003C2A55CF30 /* Transactions */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7208853DF4CE805EC3294E1A /* TacoTrader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176A1C6D4E180401D249520A /* Build configuration list for PBXNativeTarget "TacoTrader" */;
+			buildPhases = (
+				F30CF7C46FE0C350D9887DBD /* Sources */,
+				287433D54FACF0BD3142E94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TacoTrader;
+			packageProductDependencies = (
+			);
+			productName = TacoTrader;
+			productReference = 161CC77A0E8835E292669CCA /* TacoTrader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E56DE73C21C12A960451B9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7208853DF4CE805EC3294E1A = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 56348C8DBB03378E715FB6B7 /* Build configuration list for PBXProject "TacoTrader" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9BABBF55692E4C8BDBF6B6C3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 29EFEC92F2BE88F0D9B71EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7208853DF4CE805EC3294E1A /* TacoTrader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287433D54FACF0BD3142E94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8042B333E2A46F5108F599CA /* settings.local.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30CF7C46FE0C350D9887DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2DC157F43E37DB5816F620 /* APIClient.swift in Sources */,
+				02F7A42FCD0114463232852B /* APIEndpoint.swift in Sources */,
+				19A0482C3549C1B6FADDDE27 /* AppDelegate.swift in Sources */,
+				F9C114ECA20E57D5BD7E9F7F /* AppSettings.swift in Sources */,
+				AEC76FA01FFEBC8CCB7AA88B /* Color+Theme.swift in Sources */,
+				850A89A20F6A285627660B33 /* ContentView.swift in Sources */,
+				D18F101A91B35A28391D48E9 /* DashboardView.swift in Sources */,
+				6107576FF6EBA31A29DD3006 /* DashboardViewModel.swift in Sources */,
+				028371BBE2AF0ECD9955FBDD /* EnginesView.swift in Sources */,
+				BCE001B51D4CDB222CB814D6 /* Models.swift in Sources */,
+				31A2E40DD893CC78C672EA31 /* NetworkError.swift in Sources */,
+				A02AF0CDC4F087718422AD4D /* NotificationService.swift in Sources */,
+				AC799FAF3FF9ECB3C16524C3 /* RedeemsView.swift in Sources */,
+				CC64BE053FD160FC472B72AD /* SettingsView.swift in Sources */,
+				4A0CB05F8056163A81AAEF56 /* SystemView.swift in Sources */,
+				8D81B44BADD86C7873E2857A /* TacoTraderApp.swift in Sources */,
+				FB00B5796DFE04D911A8A2D3 /* TransactionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C66D014D409DB1E06C462B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28B679FFAF64895075C72D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TacoTrader/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taco.TacoTrader;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64D49F8FA77585C09EDDC7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TacoTrader/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taco.TacoTrader;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B584898D4F889F71AF6FEF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176A1C6D4E180401D249520A /* Build configuration list for PBXNativeTarget "TacoTrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D49F8FA77585C09EDDC7CF /* Debug */,
+				28B679FFAF64895075C72D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		56348C8DBB03378E715FB6B7 /* Build configuration list for PBXProject "TacoTrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C66D014D409DB1E06C462B5 /* Debug */,
+				B584898D4F889F71AF6FEF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E56DE73C21C12A960451B9E2 /* Project object */;
+}
